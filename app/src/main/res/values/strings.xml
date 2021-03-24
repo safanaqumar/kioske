@@ -1,0 +1,40 @@
+<resources>
+  <!--  //bundle screen-->
+    <string name="app_name" translatable="false">kioske</string>
+<!--    <String name="search_for_bundles">Search for bundles</String>
+    <String name="monthly_grocery_bundle">Monthly Grocery Bundle</String>
+    <String name="movie_night_snacks">Movie Night Snacks</String>
+    <String name="breakfast_bundle">Breakfast Bundle</String>
+    <String name="healthy_munchings">Healthy Munchings</String>
+    <String name="chill_at_home_snacks">Chill at home Snacks</String>
+    <String name="easy_keto">Easy Keto</String>
+    <String name="ramzan_bundle">Ramzan bundle</String>
+
+&lt;!&ndash;Home screen&ndash;&gt;
+<String name="hi">Hi</String>
+<String name="user_name">User Name</String>
+  <String name="deliver_to">Deliver to:</String>
+  <String name="current_locaiton">Current location</String>
+  <String name="search_for_vegetable,fruit,product">Search for vegetable,fruit,product,medicine</String>
+  <String name="hot_bundles">Hot Bundles</String>
+  <String name="pharmacy">Pharmacy</String>
+  <String name="bakery">Bakery</String>
+  <String name="meat">Meat</String>
+  <String name="vegetable_and_fruits">Vegetable and fruits</String>
+  <String name="grocery_and_everyday_essentials">Grocery and everyday essentails</String>
+
+&lt;!&ndash;Addresses&ndash;&gt;
+  <String name="home">home</String>
+  <String name="work">Work</String>
+  <String name="other">Other</String>
+
+&lt;!&ndash;products_tab&ndash;&gt;
+<String name="view_your_cart">View Your Cart</String>
+  <String name="product_name">Product name</String>
+
+&lt;!&ndash;cart_view_screen&ndash;&gt;
+  <String name="add_to_cart">Add to Cart</String>
+ <String name="buy_now">Buy Now</String>-->
+
+
+</resources>

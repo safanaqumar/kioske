@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Signup"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:background="@android:color/transparent"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/kiosk_appicon"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.55"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:gravity="center"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi!"
+            android:fontFamily="@font/lato_black"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fill in the details to Sign Up"
+            android:fontFamily="@font/lato_black"
+            android:textSize="23dp"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/edSignUpName"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Name"
+            android:background="@drawable/edit_text_login_custom"
+            android:fontFamily="@font/lato_regular"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/edSignUpEmail"
+            android:layout_marginTop="20dp"
+            android:hint="Enter E-mail"
+            android:background="@drawable/edit_text_login_custom"
+            android:fontFamily="@font/lato_regular"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/edSignUpContact"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Contact"
+            android:background="@drawable/edit_text_login_custom"
+            android:fontFamily="@font/lato_regular"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/edSignUpAddress"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Address"
+            android:background="@drawable/edit_text_login_custom"
+            android:fontFamily="@font/lato_regular"
+            android:textColor="@color/black"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Sign Up"
+            android:id="@+id/btn_siginingin"
+            android:background="@drawable/sign_in_btn_custom"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/app_pink"
+            android:fontFamily="@font/lato_regular"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="end"
+        android:layout_margin="20dp"
+        android:layout_weight="0.45"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="By Signing up you accept the"
+                android:gravity="end"
+                android:fontFamily="@font/lato_italic"
+                android:layout_weight="0.54"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="  Terms of Service"
+                android:layout_weight="0.46"
+                android:textColor="@color/app_lightBlue"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="and"
+                android:gravity="end"
+                android:fontFamily="@font/lato_italic"
+                android:layout_weight="0.4"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="  Privacy Policy"
+                android:layout_weight="0.6"
+                android:textColor="@color/app_lightBlue"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_marginTop="30dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Already have an account?"
+                android:fontFamily="@font/lato_blackitalic"
+                android:layout_weight="0.6"
+                android:layout_gravity="center_horizontal"
+               android:textAlignment="center"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="  Login"
+                android:layout_weight="0.4"
+                android:textColor="@color/app_lightBlue"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

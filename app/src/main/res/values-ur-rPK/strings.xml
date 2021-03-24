@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">kioske</string>
+   <!-- <String name="search_for_bundles">Search for bundles</String>
+    <String name= "monthly_grocery_bundle">ماہانہ گروسری بنڈل</String>
+    <String name="movie_night_snacks">مووی نائٹ ناشتے</String>
+    <String name="breakfast_bundle">ناشتے کا بنڈل</String>
+    <String name="healthy_munchings">صحت مند منچنگیں</String>
+    <String name="chill_at_home_snacks">گھر ناشتے پر سردی لگائیں</String>
+    <String name="easy_keto">آسان کیٹو</String>
+    <String name="ramzan_bundle">رمضان کا بنڈل</String>
+-->
+
+<!--    &lt;!&ndash;Home screen&ndash;&gt;
+    <String name="Hi">ہیلو</String>
+    <String name="user_name">صارف کا نام</String>
+    <String name="deliver_to">کی فراہمی!</String>
+    <String name="current_locaiton">موجودہ مقام</String>
+    <String name="search_for_vegetable,fruit,product">سبزی ، پھل ، مصنوع ، دوائی کی تلاش کریں</String>
+    <String name="hot_bundles">گرم بنڈل</String>
+    <String name="pharmacy">فارمیسی</String>
+    <String name="bakery">بیکری</String>
+    <String name="meat">گوشت</String>
+    <String name="vegetable_and_fruits">سبزی اور پھل</String>
+    <String name="grocery_and_everyday_essentials">گروسری اور روزمرہ کی اجرتیں</String>
+
+    &lt;!&ndash;Addresses&ndash;&gt;
+    <String name="home">گھر</String>
+    <String name="work">کام</String>
+    <String name="other">دیگر</String>
+
+
+    &lt;!&ndash;products_tab&ndash;&gt;
+    <String name="view_your_cart">اپنی ٹوکری دیکھیں</String>
+    <String name="product_name">پروڈکٹ کا نام</String>
+
+    &lt;!&ndash;cart_view_screen&ndash;&gt;
+    <String name="add_to_cart">کار میں شامل کریں</String>
+    <String name="buy_now">ابھی خریدیں</String>-->
+
+</resources>

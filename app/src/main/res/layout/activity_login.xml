@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Login"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:forceDarkAllowed="false"
+    android:background="@android:color/white"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/kiosk_appicon"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.45"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:gravity="center"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hey!"
+            android:layout_gravity="left"
+           android:textStyle="bold"
+            android:fontFamily="@font/lato_bold"
+            android:textSize="40dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/app_lightBlue"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Your Details to Proceed."
+android:textStyle="bold"
+            android:fontFamily="@font/lato_bold"
+            android:textSize="23dp"
+            android:textColor="@color/blackk"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/edUserId"
+            android:layout_marginTop="20dp"
+            android:hint="Enter Your E-mail"
+            android:background="@drawable/edit_text_login_custom"
+            android:fontFamily="@font/lato_regular"
+            android:textColor="@color/black"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:id="@+id/edPassword"
+            android:layout_marginTop="20dp"
+            android:hint="Password"
+            android:background="@drawable/edit_text_login_custom"
+            android:fontFamily="@font/lato_regular"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password"
+            android:id="@+id/tv_for_pass"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
+            android:textColor="@color/app_lightBlue"
+
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Log in"
+            android:id="@+id/btnlogIn"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/app_pink"
+            android:background="@drawable/sign_in_btn_custom"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/lato_regular"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="end"
+        android:layout_margin="20dp"
+        android:layout_weight="0.65"
+
+        >
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Sign In with Facebook"
+            android:id="@+id/btnsignInFb"
+            android:background="@drawable/sign_in_btn_fb"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/lato_regular"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Sign In with Google"
+            android:id="@+id/btnsignIn"
+            android:textColor="@color/white"
+            android:background="@drawable/sign_in_btn_google"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_regular"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:layout_marginTop="10dp"
+            >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Don't Have an Account?"
+                android:layout_weight="0.6"
+                android:textColor="@color/app_lightBlue"
+                android:layout_gravity="end"
+                android:textAlignment="textEnd"
+                />
+            <TextView
+                android:id="@+id/btn_signup"
+                android:layout_width="0dp"
+                android:clickable="true"
+                android:layout_height="wrap_content"
+                android:text="  Sign Up"
+                android:layout_weight="0.4"
+                android:textColor="@color/app_lightBlue"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

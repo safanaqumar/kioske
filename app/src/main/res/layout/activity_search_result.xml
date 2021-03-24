@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Search_result">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Results are.."
+        android:textStyle="italic"
+        android:textSize="24dp"
+        android:layout_margin="16dp"
+        android:textColor="@color/blackk"
+       android:gravity="top"
+       />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/linear_lay"
+        android:layout_above="@+id/add_to_cart"
+        android:id="@+id/searchResult_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       />
+    </LinearLayout>
+</RelativeLayout>
